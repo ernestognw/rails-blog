@@ -17,8 +17,10 @@
         <p class="nav-link">|</p>
       </li>
       <% if user_signed_in? %>
+        <p class="nav-link">
+        <%= current_user.name %>
+        </p>
         <li class="nav-item">
-          <%= current_user.email %>
           <%= link_to('Cerrar sesión', destroy_user_session_path, class: 'btn btn-platzi', method: :delete) %>
         </li>
       <% else %>
