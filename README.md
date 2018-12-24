@@ -1,24 +1,16 @@
-# README
+# Platzi Blog Clone made in Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Platzi Blog clone intended to be a simple excersice to learn RoR
 
-Things you may want to cover:
+![App screenshot](./.readme-static/screenshot.png)
 
-* Ruby version
+## How does it works?
 
-* System dependencies
+Rails 5.2.2
 
-* Configuration
+* `bundle install` to install dependecies
+* `rails s`to run server
 
-* Database creation
+## Licenced
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+MIT
